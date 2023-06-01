@@ -1,33 +1,62 @@
 {
   "project_info": {
-    "project_number": "1069056623178",
-    "project_id": "etherbal-6a447",
-    "storage_bucket": "etherbal-6a447.appspot.com"
+    "project_number": "539470669479",
+    "project_id": "enshemt",
+    "storage_bucket": "enshemt.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1069056623178:android:90642f9a2d98e3eeb65cb3",
+        "mobilesdk_app_id": "1:539470669479:android:c30407bef0c486eb395d82",
         "android_client_info": {
           "package_name": "com.bettyyordi.demo_project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1069056623178-44ou8vb90rvvc5gbkb5330f5jvfgdfcv.apps.googleusercontent.com",
+          "client_id": "539470669479-nqj5nafu45oku497tfuicncmqpjbi20t.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBRgvvi-AJWdl_b2lS62WcrP5U-Is_uSGc"
+          "current_key": "AIzaSyAhyJvYaGchw77FxMsw5nM3adodpnbfDPM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1069056623178-44ou8vb90rvvc5gbkb5330f5jvfgdfcv.apps.googleusercontent.com",
+              "client_id": "539470669479-hdo46gnsjiqjvk0k70sppqteji3jeqet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539470669479:android:5703fcc53656a3e1395d82",
+        "android_client_info": {
+          "package_name": "com.example.gebeya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539470669479-nqj5nafu45oku497tfuicncmqpjbi20t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhyJvYaGchw77FxMsw5nM3adodpnbfDPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539470669479-hdo46gnsjiqjvk0k70sppqteji3jeqet.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

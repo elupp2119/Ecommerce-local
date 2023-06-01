@@ -128,7 +128,6 @@ class _HomeHeaderState extends State<HomeHeader> {
                 ),
               ),
             ),
-          
             ListTile(
               leading: const Icon(Icons.shopping_cart, color: Colors.green),
               title: const Text(
@@ -160,7 +159,6 @@ class _HomeHeaderState extends State<HomeHeader> {
               height: 5,
               color: Colors.green,
             ),
-               
             ListTile(
               leading: const Icon(Icons.person, color: Colors.blue),
               title: const Text(
@@ -196,21 +194,21 @@ class _HomeHeaderState extends State<HomeHeader> {
               height: 5,
               color: Colors.green,
             ),
-             ListTile(
-              leading:
-                  const Icon(Icons.groups, color: Colors.orange),
+            ListTile(
+              leading: const Icon(Icons.groups, color: Colors.orange),
               title: const Text(
                 ' About Developers ',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: ((context) => const AboutDevelopers())));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: ((context) => const AboutDevelopers())));
               },
             ),
             ListTile(
-              leading:
-                  const Icon(Icons.question_mark, color: Colors.deepPurple),
+              leading: const Icon(Icons.help_outline, color: Colors.deepPurple),
               title: const Text(
                 ' About Company ',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),

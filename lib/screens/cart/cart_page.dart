@@ -77,7 +77,7 @@ class _Cart extends State<Cart> {
                       style: ElevatedButton.styleFrom(
                           padding: const EdgeInsets.symmetric(horizontal: 50),
                           shape: const RoundedRectangleBorder(),
-                          primary: Theme.of(context).accentColor),
+                          primary: Theme.of(context).colorScheme.secondary),
                       onPressed: () {
                         // Navigator.pop(c/ontext);
                         Navigator.push(
@@ -362,7 +362,7 @@ class bottom_section extends StatelessWidget {
             style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(horizontal: 50),
                 shape: const RoundedRectangleBorder(),
-                primary: Theme.of(context).accentColor),
+                primary: Theme.of(context).colorScheme.secondary),
             onPressed: () async {
               Navigator.push(
                   context,

@@ -113,7 +113,8 @@ class _WhishlistPage extends State<WhishlistPage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 50),
                                 shape: const RoundedRectangleBorder(),
-                                primary: Theme.of(context).accentColor),
+                                primary:
+                                    Theme.of(context).colorScheme.secondary),
                             onPressed: () {
                               // Navigator.pop(c/ontext);
                               Navigator.push(

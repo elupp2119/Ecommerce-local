@@ -14,10 +14,9 @@ import 'package:demo_project/screens/welcome_screen.dart';
 import 'package:demo_project/services/nofification_service.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:google_fonts/google_fonts.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
-
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -49,15 +48,14 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.green,
           textTheme: TextTheme(
-            bodyText2: GoogleFonts.cormorantGaramond(),
-            bodyText1: GoogleFonts.cormorantGaramond(),
-          ),
+              // bodyText2: GoogleFonts.cormorantGaramond(),
+              // bodyText1: GoogleFonts.cormorantGaramond(),
+              ),
         ),
         routes: {
           "/fallbackSuccess": (context) => const FallbackPage(),
         },
         home: const AuthStateScreen(),
-      
       ),
     );
   }

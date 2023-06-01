@@ -301,7 +301,7 @@ class _ProductPageState extends State<ProductPage> {
                 );
               }
               return DotsIndicator(
-                dotsCount: snapshot.data!.docs.length,
+                dotsCount: 5,
                 position: _currentPage,
                 decorator: DotsDecorator(
                   activeColor: Colors.green,
